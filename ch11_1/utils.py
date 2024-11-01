@@ -24,7 +24,7 @@ def compute_damage_output(level, power, attack, defense, crit_chance, random_ran
 	
 	:returns: Un tuple contenant le dommage arrondi à l'entier le plus proche et un booléen indiquant un coup critique
 	"""
-
+	
 	level_factor = (2 * level) / 5 + 2
 	weapon_factor = power
 	atk_def_factor = attack / defense
