@@ -2,7 +2,10 @@
 # -*- coding: utf-8 -*-
 
 def majuscule(mot):
-    # TODO completer la fonction ici
+    mot2 = ''
+    for i in mot:
+        mot2 += chr(ord(i) - 32)
+    mot = mot2
     return mot
 
 
