@@ -39,7 +39,7 @@ class Move(ABC):
 		
 		:returns: Un message (str) qui décrit succinctment ce qui s'est produit.
 		"""
-		pass
+		return f'{opponent.name} used {self.__name}'
 
 	def on_combat_begin(self):
 		"""
